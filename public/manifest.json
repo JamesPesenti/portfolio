@@ -1,6 +1,10 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#adc6cc",
+  "background_color": "#4bb6d1",
+  "short_name": "Portfolio 2022",
+  "name": "James Pesenti Portfolio 22'",
   "icons": [
     {
       "src": "favicon.ico",
@@ -17,9 +21,5 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }
