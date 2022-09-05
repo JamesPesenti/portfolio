@@ -1,8 +1,7 @@
-import React, {Component} from 'react'
+import React from 'react'
 import { FaGithub } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaFile } from "react-icons/fa";
-import Pdf from "../Components/JamesPesentiResume2022.pdf"
 
 
 const Navbar = () => {
@@ -26,7 +25,7 @@ const Navbar = () => {
                       </a>
                     </li>
                     <li>
-                      <a className="App-link" href={Pdf} target="_blank" rel="noopener noreferrer">
+                      <a className="App-link" href="" target="_blank" rel="noopener noreferrer">
                       <FaFile size={35} style={{display: "flex", textAlign: "center", marginLeft: 10}} />
                 
                         Resume

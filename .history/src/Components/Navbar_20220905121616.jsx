@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import { FaGithub } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaFile } from "react-icons/fa";
-import Pdf from "../Components/JamesPesentiResume2022.pdf"
+import Pdf from "/JamesPesentiResume2022.pdf"
 
 
 const Navbar = () => {
