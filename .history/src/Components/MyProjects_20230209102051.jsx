@@ -1,5 +1,4 @@
-import UberGoogleButton from "../Components/UberGoogleButton"
-import AstonGoogleButton from "./AstonGoogleButton"
+import AstonGoogleButton from "../Components/AstonGoogleButton"
 import AstonAppleButton from "./AstonAppleButton"
 import BarceGoogleButton from "../Components/BarceGoogleButton"
 import BarceAppleButton from "./BarceAppleButton"
@@ -14,24 +13,23 @@ const MyProjects = () => {
     <div id="parallaxContainer">
     {/* Uber Eats App */}
     <div style={{marginTop: 300, marginBottom: 120, justifyContent: 'center', alignItems: 'center',  width: "80%", borderRadius: 10}} className="box">
-            <div className="imgWrapper" style={{width: 480, height: 350}}>
-                <img style={{ borderRadius: 5, marginTop: 50, width: "100%", height: 300, transition: ".7s", }} src="/images/UberEatsLast.png" />
+            <div className="imgWrapper" style={{width: 450, height: 350}}>
+                <img style={{ marginTop: 50, width: "100%", height: "auto", transition: ".7s", }} src="/images/astonmock.png" />
             </div>
             <h4 style={{textAlign: 'center'}}>Uber Eats Clone App</h4>
                 <div style={{flexDirection: "row", padding: 10, borderRadius: 10, marginBottom: -40,}}>
                   <img style={{width: 50, height: 50, borderRadius: 50}} src="https://i.pinimg.com/originals/8a/02/1a/8a021aa097236b42dd71fb731e3d894d.gif"/>
                   <img style={{width: 80, height: 50, }} src="https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"  />
-                  <img style={{width: 50, height: 50, }} src="https://pbs.twimg.com/profile_images/1114309924551417856/FKA4cm2x_400x400.png"  />
                 </div>
-            <p style={{fontSize: 20,textAlign: 'center', padding: 50}}>A full stack react native app inspired by the UberEats user app. I utilized Aws Amplify's datastore to configure the back-end to query and save customer's orders and used Amazon Cognito for user registration, authentication, & account recovery.</p>
+            <p style={{fontSize: 20,textAlign: 'center', padding: 50}}>A React Native app I created to reimagine the hotel Aston Waikiki Beach's website into a cross platform mobile app. I used most of the content and images from the current website and utilized both Bottom Tabs, Drawer navigation and other React Native dependencies for a better UX.</p>
 
             <div className="astonProject" style={{flexDirection: "row"}}>
-                <UberGoogleButton  />
+                <AstonGoogleButton  />
                 <button style={{marginTop: 40}} type="button" className="codeButton">
-                  <a href="https://github.com/JamesPesenti/UberEatsClone" target="_blank" rel="noopener noreferrer">
-                    <FaGithub  size={45} style={{ marginTop: -80, marginBottom: -20, justifyContent: "center", textAlign: "center"}} />     
-                  </a>
-                  <p>See Code</p>
+                        <a href="https://github.com/JamesPesenti/AstonWaikikiBeachApp" target="_blank" rel="noopener noreferrer">
+                            <FaGithub  size={45} style={{ marginTop: -80, marginBottom: -20, justifyContent: "center", textAlign: "center"}} />     
+                        </a>
+                        <p>See Code</p>
                 </button>
                 <AstonAppleButton  />
             </div>
@@ -109,7 +107,7 @@ const MyProjects = () => {
 
 
 {/* REapp */}
-        {/* <div style={{marginBottom: 100, justifyContent: 'center', alignItems: 'center',  width: "80%", borderRadius: 10,}} className="box">
+        <div style={{marginBottom: 100, justifyContent: 'center', alignItems: 'center',  width: "80%", borderRadius: 10,}} className="box">
         <img style={{marginTop: 50, width: 800, height: 350, borderRadius: 10, borderWidth: 2, borderColor: "green"}} src="/images/remockup.png" />
             <h4 style={{textAlign: 'center'}}>Real Estate Listing Website </h4>
             <div style={{flexDirection: "row", padding: 10, borderRadius: 10}}>
@@ -124,8 +122,7 @@ const MyProjects = () => {
                         </a>
                         <p>See Code</p>
             </button>
-        </div> */}
-
+        </div>
     </div>
 
        

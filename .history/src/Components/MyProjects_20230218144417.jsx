@@ -1,5 +1,4 @@
-import UberGoogleButton from "../Components/UberGoogleButton"
-import AstonGoogleButton from "./AstonGoogleButton"
+import AstonGoogleButton from "../Components/AstonGoogleButton"
 import AstonAppleButton from "./AstonAppleButton"
 import BarceGoogleButton from "../Components/BarceGoogleButton"
 import BarceAppleButton from "./BarceAppleButton"
@@ -26,7 +25,7 @@ const MyProjects = () => {
             <p style={{fontSize: 20,textAlign: 'center', padding: 50}}>A full stack react native app inspired by the UberEats user app. I utilized Aws Amplify's datastore to configure the back-end to query and save customer's orders and used Amazon Cognito for user registration, authentication, & account recovery.</p>
 
             <div className="astonProject" style={{flexDirection: "row"}}>
-                <UberGoogleButton  />
+                <AstonGoogleButton  />
                 <button style={{marginTop: 40}} type="button" className="codeButton">
                   <a href="https://github.com/JamesPesenti/UberEatsClone" target="_blank" rel="noopener noreferrer">
                     <FaGithub  size={45} style={{ marginTop: -80, marginBottom: -20, justifyContent: "center", textAlign: "center"}} />     
