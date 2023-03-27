@@ -39,7 +39,7 @@ const MyProjects = () => {
         {/* Donut Shop App */}
     <div style={{marginTop: 30, marginBottom: 20, justifyContent: 'center', alignItems: 'center',  width: "80%", borderRadius: 10}} className="box">
             <div  >
-                <img style={{ borderRadius: 10, marginTop: 50, width: "80%", height: 350, transition: ".7s", }} src="/images/appAndDashMock.png" />
+                <img style={{ borderRadius: 5, marginTop: 50, width: "80%", height: 350, transition: ".7s", }} src="/images/appAndDashMock.png" />
             </div>
             <h4 style={{textAlign: 'center'}}>Donut Shop App & Dashboard</h4>
                 <div style={{flexDirection: "row", padding: 10, borderRadius: 10, marginBottom: -40,}}>
