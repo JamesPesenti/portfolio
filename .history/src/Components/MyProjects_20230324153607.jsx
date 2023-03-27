@@ -38,8 +38,8 @@ const MyProjects = () => {
 
         {/* Donut Shop App */}
     <div style={{marginTop: 30, marginBottom: 20, justifyContent: 'center', alignItems: 'center',  width: "80%", borderRadius: 10}} className="box">
-            <div  >
-                <img style={{ borderRadius: 5, marginTop: 50, width: "100%", height: 350, transition: ".7s", }} src="/images/appAndDashMock.png" />
+            <div className="imgWrapper" style={{width: 480, height: 350}}>
+                <img style={{ borderRadius: 5, marginTop: 50, width: "100%", height: 300, transition: ".7s", }} src="" />
             </div>
             <h4 style={{textAlign: 'center'}}>Donut Shop App & Dashboard</h4>
                 <div style={{flexDirection: "row", padding: 10, borderRadius: 10, marginBottom: -40,}}>
@@ -47,12 +47,12 @@ const MyProjects = () => {
                   <img style={{width: 80, height: 50, }} src="https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"  />
                   <img style={{width: 50, height: 50, }} src="https://pbs.twimg.com/profile_images/1114309924551417856/FKA4cm2x_400x400.png"  />
                 </div>
-            <p style={{fontSize: 20,textAlign: 'center', padding: 50}}>I built this React Native Donut Shop e-commerce app along with an integratable React.js dashboard for the donut shop to receive a user's order from the app in real time. Users can check out new menu items, order donuts to pick up in store, and sign up for donut rewards.</p>
+            <p style={{fontSize: 20,textAlign: 'center', padding: 50}}>React Native donut shop e-commerce app with an itegrated React.js dashboard for the donut shop to receive orders in real time.</p>
 
             <div className="astonProject" style={{flexDirection: "row"}}>
                 <UberGoogleButton  />
                 <button style={{marginTop: 40}} type="button" className="codeButton">
-                  <a href="https://github.com/JamesPesenti/Donut_Shop" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/JamesPesenti/UberEatsClone" target="_blank" rel="noopener noreferrer">
                     <FaGithub  size={45} style={{ marginTop: -80, marginBottom: -20, justifyContent: "center", textAlign: "center"}} />     
                   </a>
                   <p>See Code</p>
@@ -68,12 +68,12 @@ const MyProjects = () => {
             <div className="imgWrapper" style={{width: 450, height: 350}}>
                 <img style={{ marginTop: 50, width: "100%", height: "auto", transition: ".7s", }} src="/images/astonmock.png" />
             </div>
-            <h4 style={{textAlign: 'center'}}>Aston Waikiki Hotel UI</h4>
+            <h4 style={{textAlign: 'center'}}>Aston Waikiki Hotel App</h4>
                 <div style={{flexDirection: "row", padding: 10, borderRadius: 10, marginBottom: -40,}}>
                   <img style={{width: 50, height: 50, borderRadius: 50}} src="https://i.pinimg.com/originals/8a/02/1a/8a021aa097236b42dd71fb731e3d894d.gif"/>
                   <img style={{width: 80, height: 50, }} src="https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"  />
                 </div>
-            <p style={{fontSize: 20,textAlign: 'center', padding: 50}}>A React Native UI design I created to reimagine the hotel Aston Waikiki Beach's website into a cross platform mobile app. I used most of the content and images from the current website and utilized both Bottom Tabs, Drawer navigation and other React Native libraries for a better user experience.</p>
+            <p style={{fontSize: 20,textAlign: 'center', padding: 50}}>A React Native app I created to reimagine the hotel Aston Waikiki Beach's website into a cross platform mobile app. I used most of the content and images from the current website and utilized both Bottom Tabs, Drawer navigation and other React Native libraries for a better user experience.</p>
 
             <div className="astonProject" style={{flexDirection: "row"}}>
                 <AstonGoogleButton  />
@@ -121,7 +121,7 @@ const MyProjects = () => {
                 <img src="https://www.logo.wine/a/logo/React_(web_framework)/React_(web_framework)-Logo.wine.svg" style={{width: 100, height: 50,}} />
                 <img className="logoBox" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" style={{width: 50, height: 50,}} />
             </div>
-            <p style={{fontSize: 20, textAlign: 'center', padding: 50}}>This was the first official React.js web app that I developed. I made it for a friend who wanted to reach more customers with a mobile friendly website. I made multiple iterations and converted it into a PWA for offline operability with native like performance. </p>
+            <p style={{fontSize: 20, textAlign: 'center', padding: 50}}>This was the first official React web app that I developed. I made it for a friend who wanted to reach more customers with a mobile friendly website. I made multiple iterations and converted it into a PWA for offline operability with native like performance. </p>
             <button style={{marginTop: 0}} type="button" className="codeButton">
                         <a href="https://github.com/JamesPesenti/InnerAuraReadings2022" target="_blank" rel="noopener noreferrer">
                             <FaGithub  size={45} style={{ marginTop: -80, marginBottom: -20, justifyContent: "center", textAlign: "center"}} />     

@@ -187,14 +187,14 @@ a {
 
 .imgWrapper {
   justify-content: center;
-  margin-left: 90px;
+  width: 90px;
 }
 
 
 @media screen and (min-width: 300px) and (max-width: 2000px) {
 
   .imgWrapper {
-    width: 490px;
+    width: 450px;
     height: 450px;
     margin: auto; /* This should position it in the center */
     transition: all .7s;

@@ -38,8 +38,8 @@ const MyProjects = () => {
 
         {/* Donut Shop App */}
     <div style={{marginTop: 30, marginBottom: 20, justifyContent: 'center', alignItems: 'center',  width: "80%", borderRadius: 10}} className="box">
-            <div  >
-                <img style={{ borderRadius: 5, marginTop: 50, width: "100%", height: 350, transition: ".7s", }} src="/images/appAndDashMock.png" />
+            <div className="imgWrapper" style={{width: 480, height: 320}}>
+                <img style={{ borderRadius: 5, marginTop: 50, width: "100%", height: 250, transition: ".7s", }} src="/images/Screenshot 2023-03-25 152620.png" />
             </div>
             <h4 style={{textAlign: 'center'}}>Donut Shop App & Dashboard</h4>
                 <div style={{flexDirection: "row", padding: 10, borderRadius: 10, marginBottom: -40,}}>
@@ -47,12 +47,12 @@ const MyProjects = () => {
                   <img style={{width: 80, height: 50, }} src="https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"  />
                   <img style={{width: 50, height: 50, }} src="https://pbs.twimg.com/profile_images/1114309924551417856/FKA4cm2x_400x400.png"  />
                 </div>
-            <p style={{fontSize: 20,textAlign: 'center', padding: 50}}>I built this React Native Donut Shop e-commerce app along with an integratable React.js dashboard for the donut shop to receive a user's order from the app in real time. Users can check out new menu items, order donuts to pick up in store, and sign up for donut rewards.</p>
+            <p style={{fontSize: 20,textAlign: 'center', padding: 50}}>I built this React Native Donut Shop e-commerce app along with an integratable React.js dashboard for the donut shop to receive user's orders from the app in real time.</p>
 
             <div className="astonProject" style={{flexDirection: "row"}}>
                 <UberGoogleButton  />
                 <button style={{marginTop: 40}} type="button" className="codeButton">
-                  <a href="https://github.com/JamesPesenti/Donut_Shop" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/JamesPesenti/UberEatsClone" target="_blank" rel="noopener noreferrer">
                     <FaGithub  size={45} style={{ marginTop: -80, marginBottom: -20, justifyContent: "center", textAlign: "center"}} />     
                   </a>
                   <p>See Code</p>
