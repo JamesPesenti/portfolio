@@ -17,7 +17,7 @@ function App() {
       <div style={{justifyContent: 'center', position: 'center', marginTop: 200}}>
         <Scroll />
       </div>
-      <div style={{marginBottom: 300}} >
+      <div >
         <MyProjects />
       </div>
       <div id="thanks">

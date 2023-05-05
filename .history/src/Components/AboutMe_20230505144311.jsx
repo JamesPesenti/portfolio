@@ -10,7 +10,7 @@ const AboutMe = () => {
         <div style={{justifyContent: "center", textAlign: "center", color: "white", padding: 50,}}>
             {/* Spinning image  */}
             {/* <img style={{padding: 10, borderRadius: "50%", width: 200, height: 200,}} src="/images/IMG_1619.jpg" className="App-logo" alt="logo" /> */}
-            <img style={{padding: 10, borderRadius: "50%", width: 200, height: 200,}} src="/images/IMG_1619.jpg" alt="logo" />
+            <img style={{padding: 10, borderRadius: "50%", width: 200, height: 200,}} src="/images/IMG_1619.jpg" className="App-logo" alt="logo" />
             <h1>I'm James Pesenti</h1>
             <h2>a Software Developer building mobile apps and websites</h2>
               <FaMapPin size={20} style={{position: "relative", top: 5, right: 65, }} />
