@@ -12,27 +12,35 @@ const MyProjects = () => {
     <div id="parallaxContainer">
 
     {/* Airbnb Clone */}
-    <div style={{marginTop: 30, marginBottom: 20, justifyContent: 'center', alignItems: 'center',  width: "80%", borderRadius: 10}} className="box">
+    <div style={{ justifyContent: 'center', alignItems: 'center',  width: "80%", borderRadius: 10}} className="box">
             <div>
-                <img style={{ borderRadius: 10, marginTop: 50, width: "40%", height: 350, transition: ".7s", }} src="/images/airbnbDesign.webp" />
+                <img style={{ borderRadius: 10, marginTop: 50, marginBottom: -35, width: "48%", height: 350, transition: ".7s", }} src="images/mockrocket-capture (11).png" />
             </div>
             <h4 style={{textAlign: 'center'}}>Airbnb Clone App</h4>
                 <div style={{flexDirection: "row", padding: 10, borderRadius: 10, marginBottom: -40,}}>
                   <img style={{width: 50, height: 50, borderRadius: 50}} src="https://i.pinimg.com/originals/8a/02/1a/8a021aa097236b42dd71fb731e3d894d.gif"/>
                   <img style={{width: 80, height: 50, }} src="https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"  />
-                  <img style={{width: 50, height: 50, }} src="https://pbs.twimg.com/profile_images/1114309924551417856/FKA4cm2x_400x400.png"  />
+                  {/* <img style={{width: 50, height: 50, }} src="https://pbs.twimg.com/profile_images/1114309924551417856/FKA4cm2x_400x400.png"  /> */}
                 </div>
-            <p style={{fontSize: 20,textAlign: 'center', padding: 50}}>I built this React Native Donut Shop e-commerce app along with an integratable React.js dashboard for the donut shop to receive a user's order from the app in real time. Users can check out new menu items, order donuts to pick up in store, and sign up for donut rewards.</p>
+            <p style={{fontSize: 20, textAlign: 'center', padding: 50, marginBottom: -60}}>I created a mobile app clone of the popular Airbnb platform using React Native. Currently, the project includes a functional UI that mimics the 2022 Airbnb interface, with features such as</p>
+            <p style={{fontSize: 20, paddingHorizontal: 0, marginBottom: -20}}> &#8226; OpenAi API integration prompting ChatGPT to act as a chatbot for guest property recommendations.</p>
+            <p style={{fontSize: 20, paddingHorizontal: 0, marginBottom: -20}}> &#8226; Google Maps functionality to select an Airbnb on the map based on price.</p>
+            <p style={{fontSize: 20, padding: 0, marginBottom: -20}}>&#8226; Google autocomplete search</p>
+            <p style={{fontSize: 20, padding: 0, marginBottom: -20}}>&#8226; Property detail screens</p>
+            <p style={{fontSize: 20,  padding: 0, marginBottom: -40}}>&#8226; Image carousel with pagination</p>
+            <p style={{fontSize: 20, textAlign: 'center', padding: 40, marginBottom: -60}}>I plan to add additional features and integrate back end functionality in future updates to enhance the user experience and provide a more comprehensive product.</p>
+            <p style={{fontSize: 20, textAlign: 'center', padding: 30, marginBottom: -80}}><b> Key Skills I learned: </b>React Native, UI design, Google Play and App Store submission process, mobile development, UX design, project management.</p>
+            <p style={{fontSize: 20, textAlign: 'center', padding: 50}}><b> Impact: </b> Each project has allowed me to gain experience in mobile development and hone my skills in UI and UX design. It has also provided me with the opportunity to practice project management, by being responsible for planning and executing the project from start to finish, providing me with valuable experience of the mobile app lifecycle.</p>
 
             <div style={{flexDirection: "row"}}>
-                <UberGoogleButton  />
-                <button style={{marginTop: 40}} type="button" className="codeButton">
-                  <a href="https://github.com/JamesPesenti/Donut_Shop" target="_blank" rel="noopener noreferrer">
+                {/* <UberGoogleButton  /> */}
+                <button style={{marginTop: 10}} type="button" className="codeButton">
+                  <a href="https://github.com/JamesPesenti/Airbnb" target="_blank" rel="noopener noreferrer">
                     <FaGithub  size={45} style={{ marginTop: -80, marginBottom: -25, justifyContent: "center", textAlign: "center"}} />     
                   </a>
                   <p>See Code</p>
                 </button>
-                <AstonAppleButton  />
+                {/* <AstonAppleButton  /> */}
             </div>
             
         </div>
@@ -49,7 +57,7 @@ const MyProjects = () => {
                   <img style={{width: 80, height: 50, }} src="https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"  />
                   <img style={{width: 50, height: 50, }} src="https://pbs.twimg.com/profile_images/1114309924551417856/FKA4cm2x_400x400.png"  />
                 </div>
-            <p style={{fontSize: 20,textAlign: 'center', padding: 50}}>I built this React Native Donut Shop e-commerce app along with an integratable React.js dashboard for the donut shop to receive a user's order from the app in real time. Users can check out new menu items, order donuts to pick up in store, and sign up for donut rewards.</p>
+            <p style={{fontSize: 20,textAlign: 'center', padding: 50}}>I built this full stack Donut Shop e-commerce app along with an integratable React.js dashboard for the donut shop to receive a user's order from the app in real time. Users can check out new menu items, order donuts to pick up in store, and sign up for donut rewards.</p>
 
             <div style={{flexDirection: "row"}}>
                 <UberGoogleButton  />
@@ -76,7 +84,7 @@ const MyProjects = () => {
                   <img style={{width: 80, height: 50, }} src="https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"  />
                   <img style={{width: 50, height: 50, }} src="https://pbs.twimg.com/profile_images/1114309924551417856/FKA4cm2x_400x400.png" />
                 </div>
-            <p style={{fontSize: 20,textAlign: 'center', padding: 50}}>A full stack React Native app inspired by the UberEats user app. I utilized AWS Amplify's datastore to configure the back-end to query and save customer's orders and used Amazon Cognito for user registration, authentication, & account recovery.</p>
+            <p style={{fontSize: 20,textAlign: 'center', padding: 50}}>A full stack React Native app inspired by the UberEats user app. I utilized AWS Amplify's datastore to configure the back end to query and save customer's orders and used Amazon Cognito for user registration, authentication, & account recovery.</p>
 
             <div style={{flexDirection: "row"}}>
                 <UberGoogleButton  />
@@ -128,7 +136,7 @@ const MyProjects = () => {
                 <img style={{width: 80, height: 50,}} src="https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"  />
                 <img style={{width: 50, height: 50, borderRadius: 50}} src="https://i.pinimg.com/originals/8a/02/1a/8a021aa097236b42dd71fb731e3d894d.gif"/>
                 </div>
-            <p style={{fontSize: 20, textAlign: 'center', padding: 50}}>I created this React Native app for visitors of Barcelona to save pictures and locations of their favorite places. I used pop-up modals for users to quickly get information on popular sights and used geolocation with google maps so users can save their location and select it on the map.</p>
+            <p style={{fontSize: 20, textAlign: 'center', padding: 50}}>I created this React Native app for visitors of Barcelona Spain to save pictures and locations of their favorite places. I used pop-up modals for users to quickly get information on popular sights and used geolocation with google maps so users can save their location and select it on the map.</p>
             
             <div style={{flexDirection: "row"}}>
                <BarceAppleButton  />
@@ -144,7 +152,7 @@ const MyProjects = () => {
         </div>
         
     {/* IAR React App */}
-        <div style={{marginBottom: 0, justifyContent: 'center', alignItems: 'center',  width: "80%", borderRadius: 10}} className="box">
+        {/* <div style={{marginBottom: 0, justifyContent: 'center', alignItems: 'center',  width: "80%", borderRadius: 10}} className="box">
             <img style={{ width: 600, height: 350, borderRadius: 10, borderWidth: 2, borderColor: "green"}} src="/images/innermock.png" />
             <h4 style={{textAlign: 'center'}}>Inner Aura Readings Website</h4>
             <div style={{flexDirection: "row", padding: 10, borderRadius: 10}}>
@@ -159,7 +167,7 @@ const MyProjects = () => {
                         <p>See Code</p>
             </button>
             
-        </div>
+        </div> */}
 
 
 {/* REapp */}
