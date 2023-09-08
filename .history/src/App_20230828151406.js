@@ -14,10 +14,10 @@ function App() {
         <AboutMe />
         <Navbar />
       </div>
-      <div style={{justifyContent: 'center', position: 'center', marginTop: 350}}>
+      <div style={{justifyContent: 'center', position: 'center', marginTop: 200}}>
         <Scroll />
       </div>
-      <div style={{marginBottom: 150}} >
+      <div style={{marginBottom: 550}} >
         <MyProjects />
       </div>
       <div id="thanks">

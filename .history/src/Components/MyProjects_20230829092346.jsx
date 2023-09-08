@@ -62,7 +62,7 @@ const MyProjects = () => {
                   <img style={{width: 80, height: 50, }} src="https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"  />
                   <img style={{width: 50, height: 50, }} src="https://pbs.twimg.com/profile_images/1114309924551417856/FKA4cm2x_400x400.png"  />
                 </div>
-            <p style={{fontSize: 19,textAlign: 'center', padding: 50}}>I built this full stack Donut Shop e-commerce app along with an integratable React.js dashboard for the donut shop to receive a user's order from the app in real time. Users can check out new menu items, order donuts to pick up in store, and sign up for donut rewards.</p>
+            <p style={{fontSize: 20,textAlign: 'center', padding: 50}}>I built this full stack Donut Shop e-commerce app along with an integratable React.js dashboard for the donut shop to receive a user's order from the app in real time. Users can check out new menu items, order donuts to pick up in store, and sign up for donut rewards.</p>
 
             <div>
                 <UberGoogleButton  />

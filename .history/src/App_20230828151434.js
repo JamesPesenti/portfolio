@@ -14,7 +14,7 @@ function App() {
         <AboutMe />
         <Navbar />
       </div>
-      <div style={{justifyContent: 'center', position: 'center', marginTop: 350}}>
+      <div style={{justifyContent: 'center', position: 'center', marginTop: 500}}>
         <Scroll />
       </div>
       <div style={{marginBottom: 150}} >

@@ -34,7 +34,7 @@ const MyProjects = () => {
             {/* <p style={{fontSize: 20, textAlign: 'center', padding: 30, marginBottom: -80}}><b> Key Skills I learned: </b>React Native, UI design, Google Play and App Store submission process, mobile development, UX design, project management.</p> */}
            </div>
            <div>
-            <p style={{fontSize: 18, textAlign: 'center', padding: 50}}><b> Impact: </b> Each project has allowed me to gain experience in mobile development and hone my skills in UI and UX design. It has also provided me with the opportunity to practice project management, by being responsible for planning and executing the project from start to finish, providing me with valuable experience of the mobile app lifecycle.</p>
+            <p style={{fontSize: 20, textAlign: 'center', padding: 50}}><b> Impact: </b> Each project has allowed me to gain experience in mobile development and hone my skills in UI and UX design. It has also provided me with the opportunity to practice project management, by being responsible for planning and executing the project from start to finish, providing me with valuable experience of the mobile app lifecycle.</p>
            </div>
 
            <div >
@@ -62,7 +62,7 @@ const MyProjects = () => {
                   <img style={{width: 80, height: 50, }} src="https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"  />
                   <img style={{width: 50, height: 50, }} src="https://pbs.twimg.com/profile_images/1114309924551417856/FKA4cm2x_400x400.png"  />
                 </div>
-            <p style={{fontSize: 19,textAlign: 'center', padding: 50}}>I built this full stack Donut Shop e-commerce app along with an integratable React.js dashboard for the donut shop to receive a user's order from the app in real time. Users can check out new menu items, order donuts to pick up in store, and sign up for donut rewards.</p>
+            <p style={{fontSize: 20,textAlign: 'center', padding: 50}}>I built this full stack Donut Shop e-commerce app along with an integratable React.js dashboard for the donut shop to receive a user's order from the app in real time. Users can check out new menu items, order donuts to pick up in store, and sign up for donut rewards.</p>
 
             <div>
                 <UberGoogleButton  />

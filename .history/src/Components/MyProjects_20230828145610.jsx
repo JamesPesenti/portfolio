@@ -22,19 +22,16 @@ const MyProjects = () => {
                   <img style={{width: 80, height: 50, }} src="https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"  />
                   {/* <img style={{width: 50, height: 50, }} src="https://pbs.twimg.com/profile_images/1114309924551417856/FKA4cm2x_400x400.png"  /> */}
                 </div>
-           <div>
-            <p style={{fontSize: 18, textAlign: 'center', padding: 20, marginTop: 40}}>I created a mobile app clone of the popular Airbnb platform using React Native. Currently, the project includes a functional UI that mimics the 2022 Airbnb interface, with features such as</p>
-           </div>
-           <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)'}}>
-            <p style={{fontSize: 16}}>&#8226; Google autocomplete search</p>
-            <p style={{fontSize: 16}}>&#8226; Image carousel with pagination</p>
-            <p style={{fontSize: 16}}>&#8226; OpenAI API integration prompting ChatGPT to act as a chatbot for guest property recommendations.</p>
-            <p style={{fontSize: 16}}> &#8226; Google Maps functionality to select an Airbnb on the map based on price</p>
+           <div style={{display: 'flex', flexDirection: "row"}}>
+            <p style={{fontSize: 20, textAlign: 'center', padding: 50, marginBottom: -60}}>I created a mobile app clone of the popular Airbnb platform using React Native. Currently, the project includes a functional UI that mimics the 2022 Airbnb interface, with features such as</p>
+            <p style={{fontSize: 18, padding: 0, marginBottom: -20}}>&#8226; Google autocomplete search</p>
+            <p style={{fontSize: 18, padding: 0, marginBottom: -20}}>&#8226; Image carousel with pagination</p>
+            <p style={{fontSize: 18, paddingHorizontal: 0, marginBottom: -20}}> &#8226; OpenAI API integration prompting ChatGPT to act as a chatbot for guest property recommendations.</p>
+            <p style={{fontSize: 18, paddingHorizontal: -90, marginBottom: -20}}> &#8226; Google Maps functionality to select an Airbnb on the map based on price.</p>
+
             {/* <p style={{fontSize: 20, textAlign: 'center', padding: 40, marginBottom: -60}}>I plan to add additional features and integrate back end functionality in future updates to enhance the user experience and provide a more comprehensive product.</p> */}
             {/* <p style={{fontSize: 20, textAlign: 'center', padding: 30, marginBottom: -80}}><b> Key Skills I learned: </b>React Native, UI design, Google Play and App Store submission process, mobile development, UX design, project management.</p> */}
-           </div>
-           <div>
-            <p style={{fontSize: 18, textAlign: 'center', padding: 50}}><b> Impact: </b> Each project has allowed me to gain experience in mobile development and hone my skills in UI and UX design. It has also provided me with the opportunity to practice project management, by being responsible for planning and executing the project from start to finish, providing me with valuable experience of the mobile app lifecycle.</p>
+            <p style={{fontSize: 20, textAlign: 'center', padding: 50}}><b> Impact: </b> Each project has allowed me to gain experience in mobile development and hone my skills in UI and UX design. It has also provided me with the opportunity to practice project management, by being responsible for planning and executing the project from start to finish, providing me with valuable experience of the mobile app lifecycle.</p>
            </div>
 
            <div >
@@ -54,7 +51,7 @@ const MyProjects = () => {
      {/* Donut Shop App */}
      <div style={{marginTop: -80, marginBottom: 20, justifyContent: 'center', alignItems: 'center',  width: "80%", borderRadius: 10}} className="box">
             <div>
-                <img style={{ borderRadius: 10, marginTop: 50, width: "98%", height: 350, transition: ".7s", }} src="/images/appAndDashMock.png" />
+                <img style={{ borderRadius: 10, marginTop: 50, width: "100%", height: 350, transition: ".7s", }} src="/images/appAndDashMock.png" />
             </div>
             <h4 style={{textAlign: 'center'}}>Donut Shop App & Dashboard</h4>
                 <div style={{padding: 10, borderRadius: 10, marginBottom: 0,}}>
@@ -62,7 +59,7 @@ const MyProjects = () => {
                   <img style={{width: 80, height: 50, }} src="https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"  />
                   <img style={{width: 50, height: 50, }} src="https://pbs.twimg.com/profile_images/1114309924551417856/FKA4cm2x_400x400.png"  />
                 </div>
-            <p style={{fontSize: 19,textAlign: 'center', padding: 50}}>I built this full stack Donut Shop e-commerce app along with an integratable React.js dashboard for the donut shop to receive a user's order from the app in real time. Users can check out new menu items, order donuts to pick up in store, and sign up for donut rewards.</p>
+            <p style={{fontSize: 20,textAlign: 'center', padding: 50}}>I built this full stack Donut Shop e-commerce app along with an integratable React.js dashboard for the donut shop to receive a user's order from the app in real time. Users can check out new menu items, order donuts to pick up in store, and sign up for donut rewards.</p>
 
             <div>
                 <UberGoogleButton  />
